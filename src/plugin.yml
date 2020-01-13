@@ -1,0 +1,6 @@
+main: ca.evannosich.SpawnCrafting.SpawnCrafting
+name: SpawnCrafting
+api-version: 1.15
+version: 1.0
+author: Evan Nosich (ComradeBushtail)
+description: A plugin that allows players to build mob spawners.
