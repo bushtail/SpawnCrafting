@@ -501,6 +501,29 @@ public class SpawnCrafting extends JavaPlugin {
 
 		Bukkit.addRecipe(pigSpawnerRecipe);
 		Bukkit.addRecipe(cowSpawnerRecipe);
+		Bukkit.addRecipe(chickenSpawnerRecipe);
+		Bukkit.addRecipe(sheepSpawnerRecipe);
+		Bukkit.addRecipe(rabbitSpawnerRecipe);
+		Bukkit.addRecipe(turtleSpawnerRecipe);
+		Bukkit.addRecipe(beeSpawnerRecipe);
+		Bukkit.addRecipe(pandaSpawnerRecipe);
+		Bukkit.addRecipe(polarBearSpawnerRecipe);
+		Bukkit.addRecipe(zombieSpawnerRecipe);
+		Bukkit.addRecipe(drownedSpawnerRecipe);
+		Bukkit.addRecipe(huskSpawnerRecipe);
+		Bukkit.addRecipe(zombiePigmanSpawnerRecipe);
+		Bukkit.addRecipe(skeletonSpawnerRecipe);
+		Bukkit.addRecipe(straySpawnerRecipe);
+		Bukkit.addRecipe(witherSkeletonSpawnerRecipe);
+		Bukkit.addRecipe(spiderSpawnerRecipe);
+		Bukkit.addRecipe(caveSpiderSpawnerRecipe);
+		Bukkit.addRecipe(creeperSpawnerRecipe);
+		Bukkit.addRecipe(slimeSpawnerRecipe);
+		Bukkit.addRecipe(magmaCubeSpawnerRecipe);
+		Bukkit.addRecipe(blazeSpawnerRecipe);
+		Bukkit.addRecipe(phantomSpawnerRecipe);
+		Bukkit.addRecipe(witchSpawnerRecipe);
+		Bukkit.addRecipe(endermanSpawnerRecipe);
 
 	}
 
