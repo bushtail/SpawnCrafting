@@ -34,7 +34,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey pigSpawnerKey = new NamespacedKey(this, "PIGSPAWNER");
 			ShapedRecipe pigSpawnerRecipe = new ShapedRecipe(pigSpawnerKey, pigSpawnerItem);
 			pigSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			pigSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			pigSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			pigSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			pigSpawnerRecipe.setIngredient('&', Material.PORKCHOP);
 
@@ -53,7 +53,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey cowSpawnerKey = new NamespacedKey(this, "COWSPAWNER");
 			ShapedRecipe cowSpawnerRecipe = new ShapedRecipe(cowSpawnerKey, cowSpawnerItem);
 			cowSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			cowSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			cowSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			cowSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			cowSpawnerRecipe.setIngredient('&', Material.BEEF);
 
@@ -72,7 +72,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey chickenSpawnerKey = new NamespacedKey(this, "CHICKENSPAWNER");
 			ShapedRecipe chickenSpawnerRecipe = new ShapedRecipe(chickenSpawnerKey, chickenSpawnerItem);
 			chickenSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			chickenSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			chickenSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			chickenSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			chickenSpawnerRecipe.setIngredient('&', Material.CHICKEN);
 
@@ -91,7 +91,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey sheepSpawnerKey = new NamespacedKey(this, "SHEEPSPAWNER");
 			ShapedRecipe sheepSpawnerRecipe = new ShapedRecipe(sheepSpawnerKey, sheepSpawnerItem);
 			sheepSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			sheepSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			sheepSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			sheepSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			sheepSpawnerRecipe.setIngredient('&', Material.MUTTON);
 
@@ -110,7 +110,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey rabbitSpawnerKey = new NamespacedKey(this, "RABBITSPAWNER");
 			ShapedRecipe rabbitSpawnerRecipe = new ShapedRecipe(rabbitSpawnerKey, rabbitSpawnerItem);
 			rabbitSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			rabbitSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			rabbitSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			rabbitSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			rabbitSpawnerRecipe.setIngredient('&', Material.RABBIT);
 
@@ -129,7 +129,7 @@ public class SpawnCrafting extends JavaPlugin {
 			NamespacedKey turtleSpawnerKey = new NamespacedKey(this, "TURTLESPAWNER");
 			ShapedRecipe turtleSpawnerRecipe = new ShapedRecipe(turtleSpawnerKey, turtleSpawnerItem);
 			turtleSpawnerRecipe.shape("@#@", "#&#", "@#@");
-			turtleSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+			turtleSpawnerRecipe.setIngredient('@', Material.END_ROD);
 			turtleSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
 			turtleSpawnerRecipe.setIngredient('&', Material.SCUTE);
 
@@ -150,7 +150,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey beeSpawnerKey = new NamespacedKey(this, "BEESPAWNER");
             ShapedRecipe beeSpawnerRecipe = new ShapedRecipe(beeSpawnerKey, beeSpawnerItem);
             beeSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            beeSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            beeSpawnerRecipe.setIngredient('@', Material.END_ROD);
             beeSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             beeSpawnerRecipe.setIngredient('&', Material.HONEYCOMB);
 
@@ -169,7 +169,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey pandaSpawnerKey = new NamespacedKey(this, "PANDASPAWNER");
             ShapedRecipe pandaSpawnerRecipe = new ShapedRecipe(pandaSpawnerKey, pandaSpawnerItem);
             pandaSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            pandaSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            pandaSpawnerRecipe.setIngredient('@', Material.END_ROD);
             pandaSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             pandaSpawnerRecipe.setIngredient('&', Material.BAMBOO);
             
@@ -188,7 +188,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey polarBearSpawnerKey = new NamespacedKey(this, "POLARBEARSPAWNER");
             ShapedRecipe polarBearSpawnerRecipe = new ShapedRecipe(polarBearSpawnerKey, polarBearSpawnerItem);
             polarBearSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            polarBearSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            polarBearSpawnerRecipe.setIngredient('@', Material.END_ROD);
             polarBearSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             polarBearSpawnerRecipe.setIngredient('&', Material.SNOWBALL);
 
@@ -208,7 +208,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey zombieSpawnerKey = new NamespacedKey(this, "ZOMBIESPAWNER");
             ShapedRecipe zombieSpawnerRecipe = new ShapedRecipe(zombieSpawnerKey, zombieSpawnerItem);
             zombieSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            zombieSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            zombieSpawnerRecipe.setIngredient('@', Material.END_ROD);
             zombieSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             zombieSpawnerRecipe.setIngredient('&', Material.ROTTEN_FLESH);
             
@@ -227,7 +227,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey drownedSpawnerKey = new NamespacedKey(this, "DROWNEDSPAWNER");
             ShapedRecipe drownedSpawnerRecipe = new ShapedRecipe(drownedSpawnerKey, drownedSpawnerItem);
             drownedSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            drownedSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            drownedSpawnerRecipe.setIngredient('@', Material.END_ROD);
             drownedSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             drownedSpawnerRecipe.setIngredient('&', Material.TRIDENT);
 
@@ -246,7 +246,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey huskSpawnerKey = new NamespacedKey(this, "HUSKSPAWNER");
             ShapedRecipe huskSpawnerRecipe = new ShapedRecipe(huskSpawnerKey, huskSpawnerItem);
             huskSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            huskSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            huskSpawnerRecipe.setIngredient('@', Material.END_ROD);
             huskSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             huskSpawnerRecipe.setIngredient('&', Material.SAND);
 
@@ -265,7 +265,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey zombiePigmanSpawnerKey = new NamespacedKey(this, "ZOMBIEPIGMANSPAWNER");
             ShapedRecipe zombiePigmanSpawnerRecipe = new ShapedRecipe(zombiePigmanSpawnerKey, zombiePigmanSpawnerItem);
             zombiePigmanSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            zombiePigmanSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            zombiePigmanSpawnerRecipe.setIngredient('@', Material.END_ROD);
             zombiePigmanSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             zombiePigmanSpawnerRecipe.setIngredient('&', Material.GOLDEN_SWORD);
 
@@ -284,7 +284,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey skeletonSpawnerKey = new NamespacedKey(this, "SKELETONSPAWNER");
             ShapedRecipe skeletonSpawnerRecipe = new ShapedRecipe(skeletonSpawnerKey, skeletonSpawnerItem);
             skeletonSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            skeletonSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            skeletonSpawnerRecipe.setIngredient('@', Material.END_ROD);
             skeletonSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             skeletonSpawnerRecipe.setIngredient('&', Material.BONE);
             
@@ -303,7 +303,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey straySpawnerKey = new NamespacedKey(this, "STRAYSPAWNER");
             ShapedRecipe straySpawnerRecipe = new ShapedRecipe(straySpawnerKey, straySpawnerItem);
             straySpawnerRecipe.shape("@#@", "#&#", "@#@");
-            straySpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            straySpawnerRecipe.setIngredient('@', Material.END_ROD);
             straySpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             straySpawnerRecipe.setIngredient('&', Material.SPECTRAL_ARROW);
             
@@ -322,7 +322,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey witherSkeletonSpawnerKey = new NamespacedKey(this, "WITHERSKELETONSPAWNER");
             ShapedRecipe witherSkeletonSpawnerRecipe = new ShapedRecipe(witherSkeletonSpawnerKey, witherSkeletonSpawnerItem);
             witherSkeletonSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            witherSkeletonSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            witherSkeletonSpawnerRecipe.setIngredient('@', Material.END_ROD);
             witherSkeletonSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             witherSkeletonSpawnerRecipe.setIngredient('&', Material.WITHER_SKELETON_SKULL);
             
@@ -341,7 +341,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey spiderSpawnerKey = new NamespacedKey(this, "SPIDERSPAWNER");
             ShapedRecipe spiderSpawnerRecipe = new ShapedRecipe(spiderSpawnerKey, spiderSpawnerItem);
             spiderSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            spiderSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            spiderSpawnerRecipe.setIngredient('@', Material.END_ROD);
             spiderSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             spiderSpawnerRecipe.setIngredient('&', Material.SPIDER_EYE);
 
@@ -360,7 +360,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey caveSpiderSpawnerKey = new NamespacedKey(this, "CAVESPIDERSPAWNER");
             ShapedRecipe caveSpiderSpawnerRecipe = new ShapedRecipe(caveSpiderSpawnerKey, caveSpiderSpawnerItem);
             caveSpiderSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            caveSpiderSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            caveSpiderSpawnerRecipe.setIngredient('@', Material.END_ROD);
             caveSpiderSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             caveSpiderSpawnerRecipe.setIngredient('&', Material.FERMENTED_SPIDER_EYE);
             
@@ -379,7 +379,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey creeperSpawnerKey = new NamespacedKey(this, "CREEPERSPAWNER");
             ShapedRecipe creeperSpawnerRecipe = new ShapedRecipe(creeperSpawnerKey, creeperSpawnerItem);
             creeperSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            creeperSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            creeperSpawnerRecipe.setIngredient('@', Material.END_ROD);
             creeperSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             creeperSpawnerRecipe.setIngredient('&', Material.GUNPOWDER);
 
@@ -398,7 +398,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey slimeSpawnerKey = new NamespacedKey(this, "SLIMESPAWNER");
             ShapedRecipe slimeSpawnerRecipe = new ShapedRecipe(slimeSpawnerKey, slimeSpawnerItem);
             slimeSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            slimeSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            slimeSpawnerRecipe.setIngredient('@', Material.END_ROD);
             slimeSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             slimeSpawnerRecipe.setIngredient('&', Material.SLIME_BALL);
 
@@ -417,7 +417,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey magmaCubeSpawnerKey = new NamespacedKey(this, "MAGMACUBESPAWNER");
             ShapedRecipe magmaCubeSpawnerRecipe = new ShapedRecipe(magmaCubeSpawnerKey, magmaCubeSpawnerItem);
             magmaCubeSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            magmaCubeSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            magmaCubeSpawnerRecipe.setIngredient('@', Material.END_ROD);
             magmaCubeSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             magmaCubeSpawnerRecipe.setIngredient('&', Material.MAGMA_CREAM);
 
@@ -436,7 +436,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey blazeSpawnerKey = new NamespacedKey(this, "BLAZESPAWNER");
             ShapedRecipe blazeSpawnerRecipe = new ShapedRecipe(blazeSpawnerKey, blazeSpawnerItem);
             blazeSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            blazeSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            blazeSpawnerRecipe.setIngredient('@', Material.END_ROD);
             blazeSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             blazeSpawnerRecipe.setIngredient('&', Material.BLAZE_ROD);
 
@@ -455,7 +455,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey phantomSpawnerKey = new NamespacedKey(this, "PHANTOMSPAWNER");
             ShapedRecipe phantomSpawnerRecipe = new ShapedRecipe(phantomSpawnerKey, phantomSpawnerItem);
             phantomSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            phantomSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            phantomSpawnerRecipe.setIngredient('@', Material.END_ROD);
             phantomSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             phantomSpawnerRecipe.setIngredient('&', Material.PHANTOM_MEMBRANE);
 
@@ -474,7 +474,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey witchSpawnerKey = new NamespacedKey(this, "WITCHSPAWNER");
             ShapedRecipe witchSpawnerRecipe = new ShapedRecipe(witchSpawnerKey, witchSpawnerItem);
             witchSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            witchSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            witchSpawnerRecipe.setIngredient('@', Material.END_ROD);
             witchSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             witchSpawnerRecipe.setIngredient('&', Material.GLASS_BOTTLE);
 
@@ -493,7 +493,7 @@ public class SpawnCrafting extends JavaPlugin {
             NamespacedKey endermanSpawnerKey = new NamespacedKey(this, "ENDERMANSPAWNER");
             ShapedRecipe endermanSpawnerRecipe = new ShapedRecipe(endermanSpawnerKey, endermanSpawnerItem);
             endermanSpawnerRecipe.shape("@#@", "#&#", "@#@");
-            endermanSpawnerRecipe.setIngredient('@', Material.GHAST_TEAR);
+            endermanSpawnerRecipe.setIngredient('@', Material.END_ROD);
             endermanSpawnerRecipe.setIngredient('#', Material.IRON_BARS);
             endermanSpawnerRecipe.setIngredient('&', Material.ENDER_PEARL);
 
